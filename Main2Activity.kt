@@ -17,6 +17,9 @@ import android.view.MenuItem
 class Main2Activity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
 
+
+    val name: String? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
